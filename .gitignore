@@ -1,0 +1,38 @@
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+env/
+
+# ========== IDE / 编辑器 ==========
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ========== 运行时生成的文件 ==========
+# 下载的音乐、封面、歌词
+music/*
+!music/.gitkeep
+img/*
+!img/.gitkeep
+txt/
+songlist.txt
+songer.txt
+song.txt
+*.m4a
+
+# ========== 文档源文件、日志与临时文件 ==========
+*.docx
+*.log
+*.tmp
+
+# ========== 系统文件 ==========
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ========== 临时缓存 / 误下载资源 ==========
+docs/images/resources/
